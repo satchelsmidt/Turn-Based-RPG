@@ -1,0 +1,64 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: url("../images/isengard.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.title{
+    float:right;
+    margin: 50px;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+}
+
+.card{
+    width: 200px;
+    /* height: 200px; */
+    float:left;
+    padding: 5px;
+    overflow: auto;
+    margin: 5px;
+    background: darkslategray;
+}
+
+.card-img-top{
+    width: 150px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body{
+    padding: 5px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.content{
+    clear:both;
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    background: darkslategray;
+    width: 0 auto;
+}
+
+.headings{
+    margin: 5px;
+    width: 0 auto;
+    display: table;
+}
